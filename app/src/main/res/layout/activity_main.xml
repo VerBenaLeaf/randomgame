@@ -13,5 +13,16 @@
         android:id = "@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Second World!"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="97dp" />
+
+    <Button
+        android:layout_width="wrap_parent"
+        android:layout_height="wrap_parent"
+        android:text="무슨 치킨을 원하시나요?"
+        android:id="@+id/btn_show_me_the_chicken"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
