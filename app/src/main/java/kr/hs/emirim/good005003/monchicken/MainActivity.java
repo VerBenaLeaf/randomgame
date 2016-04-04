@@ -1,14 +1,13 @@
 package kr.hs.emirim.good005003.monchicken;
 
-import android.content.DialogInterface;
 import android.support.v7.app.ActionBarActivity;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+import android.view.View;
 
-public class MainActivity extends ActionBarActivity implements View.OnClickListner {
+public class MainActivity extends ActionBarActivity implements View.OnClickListener{
 
     EditText mName;
     Button mButton;
@@ -20,7 +19,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListn
 
         mName = (EditText) findViewById(R.id.name);
         mButton = (Button) findViewById(R.id.btn_show_me_the_chicken);
-        mButton.setOnclickListner(this);
+        mButton.setOnClickListener(this);
     }
 
     @Override

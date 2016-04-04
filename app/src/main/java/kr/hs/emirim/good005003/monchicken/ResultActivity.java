@@ -20,7 +20,7 @@ public class ResultActivity extends AppCompatActivity {
         mResult = (TextView) findViewById(R.id.result);
         mResult.setText("결과");
 
-        };
+
     }
 
 }
