@@ -1,5 +1,6 @@
 package kr.hs.emirim.good005003.monchicken;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -8,7 +9,7 @@ import android.support.v7.app.ActionBarActivity;
 /**
  * Created by appcreator33 on 2016. 4. 12..
  */
-public class SplashActivity {
+public class SplashActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
